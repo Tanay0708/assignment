@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
   return (
    
-    <Box sx={{display: 'flex',height:{lg: '300px', xs:'auto'},backgroundColor:'#22242C', flexDirection : {lg: 'row',md:'row' , xs: "column"}, justifyContent:"center"}}>
+    <Box sx={{display: 'flex',height:{lg: '300px', xs:'800px'},backgroundColor:'#22242C', flexDirection : {lg: 'row',md:'row' , xs: "column"}, justifyContent:"center"}}>
         <Box sx={{width:{lg: '25%', xs: '100%'},mt:5,textAlign: { lg: 'left' , xs: 'center'}}}>
              <img src={reslinkLogo} width='50%' alt="" />
              <Typography color='#D9DBE1' variant='body1' mt={3}>
@@ -56,7 +56,7 @@ const Footer = () => {
              </Typography>
             
              <Box sx={{height:{lg:'45px',xs:'auto'},textAlign:'center',width:{lg:'100%',xs:'50%',margin:'auto'}}}>
-                    <InputBase  sx={{backgroundColor:'#4E5056',width:'100%',margin:'auto',borderRadius:'5px',mt:2,fontSize:'12px',color:'white',height:'40px'}} placeholder='Your Email Address' />
+                    <InputBase  sx={{backgroundColor:'#4E5056',width:'100%',margin:'auto',borderRadius:'5px',mt:2,fontSize:'12px',color:'white',height:'40px',p:2}} placeholder='Your Email Address' />
                    
              </Box>
               
