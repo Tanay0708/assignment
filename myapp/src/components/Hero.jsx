@@ -190,7 +190,7 @@ const Hero = () => {
 
             </Box>
             <Typography fontSize={'1.75rem'} color='#FEFEFE' ml={2}>
-                Enterprise
+               Corporation
             </Typography>
             <List  >
                 <ListItem sx={{gap:1}}>
