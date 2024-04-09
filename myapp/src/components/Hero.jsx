@@ -59,7 +59,7 @@ const Hero = () => {
 
             </Box>
             <Typography fontSize={'1.75rem'} color='#FEFEFE' ml={2}>
-                Enterprise
+                Startup
             </Typography>
             <List >
                 <ListItem sx={{gap:1}}>
@@ -109,7 +109,7 @@ const Hero = () => {
             </Button>
             </Box>
         </Box>
-        <Box sx= {{height:'100%',width: { lg: '30%', md: '30%', xs: '100%'},p:1}}>
+        <Box sx= {{height:'100%',width: { lg: '30%', md: '30%', xs: '100%'},p:1, mt:{lg:0 ,xs: 5}}}>
             <Box sx={{display:'flex',alignItems:'center'}}>
                 <Typography fontSize={'3rem'} fontFamily={'Poppins'} fontWeight={700} color='#FEFEFE' ml={2}>
                 {
@@ -174,7 +174,7 @@ const Hero = () => {
             </Button>
             </Box>
         </Box>
-        <Box sx= {{height:'500px',width: { lg: '28%', md: '30%', xs: '100%'},p:{lg:1, xs :0},backgroundColor:'#3FA268',position:{lg:'absolute'},top:-30,right:35,borderRadius:'25px'}}>
+        <Box sx= {{height:'500px',width: { lg: '28%', md: '30%', xs: '100%'},mt:{lg:0 ,xs: 5},p:{lg:1, xs :0},backgroundColor:'#3FA268',position:{lg:'absolute'},top:-30,right:35,borderRadius:'25px'}}>
             <Box sx={{display:'flex',alignItems:'center',position:'relative',ml:2}}>
             <Chip sx={{position:'absolute',top:1,right:5,color:'white',fontSize:'10px',width:'120px'}} label="MOST POPULAR" />
                 <Typography fontSize={'3rem'} fontFamily={'Poppins'} fontWeight={700} color='#FEFEFE' mt={5}>
